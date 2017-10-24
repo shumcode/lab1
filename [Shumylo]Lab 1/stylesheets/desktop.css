@@ -1,0 +1,15 @@
+.navbarcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: grey;
+}
+
+.scrollcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-right: auto;
+}
