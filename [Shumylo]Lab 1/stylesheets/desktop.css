@@ -33,6 +33,7 @@ html {
 
 .left {
   margin-right: auto;
+  justify-content: center;
 }
 
 h1 {
