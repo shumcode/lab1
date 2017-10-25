@@ -2,8 +2,8 @@ html {
   background-color: #f9fafc;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  margin: 0 auto;
-  max-width: 1000px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navbarcontainer {
@@ -58,8 +58,8 @@ h1 {
   background-color: rgba(247, 136, 167, 0.6);
   height: 290px;
   width: 290px;
-  bottom: 155px;
-  left: 605px;
+  left: 610px;
+  top: 225px;
   z-index: 25;
 }
 
@@ -67,8 +67,8 @@ h1 {
   background-color: rgba(207, 130, 213, 0.6);
   height: 145px;
   width: 145px;
-  bottom: 270px;
-  left: 550px;
+  left: 850px;
+  top: 250px;
   z-index: 35;
 }
 
@@ -76,14 +76,14 @@ h1 {
   background-color: rgba(247, 193, 162, 0.7);
   height: 190px;
   width: 190px;
-  bottom: 115px;
-  left: 360px;
+  left: 802.5px;
+  top: 370px;
   z-index: 50;
 }
 
 .pinkcircle, .purplecircle, .orangecircle {
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 
