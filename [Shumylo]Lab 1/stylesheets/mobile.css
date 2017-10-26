@@ -3,8 +3,10 @@ html {
   background-color: #f9fafc;
 }
 
-.navbar {
+.navbar a {
+  display: flex;
   padding: 6px 10px 6px 10px;
+  max-width: 77px;
 }
 
 p, a {
@@ -26,18 +28,22 @@ h1 {
   margin-left: 15px;
 }
 
-#hireus {
+.navbar2 {
   background-color: #000;
   border-radius: 50px;
-  text-align: center;
   margin-left: 7.5px;
   margin-right: 7.5px;
   margin-top: 2.5px;
 }
 
-#hireus a {
+.navbar2 a {
   color: #f9fafc;
   font-weight: normal;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .scrollcontainer a {
@@ -99,20 +105,22 @@ h1 {
 
   .navbarcontainer {
     display: flex;
-    justify-content: flex-end;
-    flex-flow: nowrap;
   }
 
-  #hireus a, .scroll a {
+  .navbar a {
+    display: block;
+  }
+
+  .navbar2 a, .scroll a {
     font-weight: normal;
   }
 
-  #hireus {
-    width: auto;
+  .navbar2 a {
+    padding: 10px 30px 10px 30px;
   }
 
-  #hireus a {
-    padding: 10px 20px 10px 20px;
+  #nav, #contact {
+    margin-top: 6px;
   }
 
   .left {
