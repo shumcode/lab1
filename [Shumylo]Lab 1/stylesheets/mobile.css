@@ -1,4 +1,4 @@
-html {
+body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f9fafc;
 }
@@ -92,7 +92,7 @@ h1 {
 }
 
 @media only screen and (min-width: 1025px) {
-  html {
+  body {
     max-width: 1000px;
     margin: 0 auto;
   }
